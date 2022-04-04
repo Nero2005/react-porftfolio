@@ -8,6 +8,22 @@
     max-height: 90%;
   }
 
+  @media only screen and (max-device-width: 600px) {
+    .text-zone {
+      width: 100%;
+      left: 20%;
+
+      h1.intro {
+        width: 100%;
+        font-size: 43px;
+
+        .firstLetter {
+          font-size: 44px;
+        }
+      }
+    }
+  }
+
   h1.intro {
     color: #ffffff;
     font-size: 53px;
@@ -84,14 +100,4 @@ h2 {
     color: #333;
   }
 
-  @media only screen and (max-width: 600px) {
-    .text-zone {
-      width: 100%;
-      left: 20%;
-
-      h1.intro {
-        font-size: 43px;
-      }
-    }
-  }
 }
