@@ -41,10 +41,10 @@
 .about-page, .contact-page, .projects-page {
   .text-zone {
     position: absolute;
-    left: 10%;
+    left: 15%;
     top: 50%;
     transform: translateY(-50%);
-    width: 35%;
+    width: 50%;
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
@@ -102,6 +102,25 @@
 
       &:nth-of-type(3) {
         animation-delay: 1.3s;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .text-zone {
+      width: 85%;
+      left: 20%;
+
+      h1 {
+        font-size: 43px;
+      }
+
+      p {
+        width: 90%;
+      }
+
+      form {
+        width: 90%;
       }
     }
   }
